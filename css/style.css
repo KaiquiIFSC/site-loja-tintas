@@ -1,0 +1,8 @@
+header{
+    display: grid;
+    grid-template-columns: 20svw 80svw;
+}
+
+.imagem-logo{
+    max-width: 10svw;
+}
