@@ -124,6 +124,84 @@ header div a:hover {
     font-size: 0.9rem;
 }
 
+.pagina-produto {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .galeria-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9fafb;
+  }
+  
+  .imagem-galeria {
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+  
+  .detalhes-produto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .titulo-produto {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+  }
+  
+  .preco-produto {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #e30000;
+  }
+  
+  .descricao-produto {
+    font-size: 1rem;
+    color: #4a5568;
+    line-height: 1.6;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    border: 1px solid #edf2f7;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+
+  .descricao-produto span{
+    font-weight: 800;
+  }
+  
+  .botao-carrinho {
+    align-self: start;
+    background-color: #f04e23;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-carrinho:hover {
+    background-color: #d6451c;
+  }
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -144,4 +222,7 @@ header div a:hover {
         margin: 10% 0;
         text-align: center;
     }
+    .pagina-produto {
+        grid-template-columns: 1fr;
+      }
 }
