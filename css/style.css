@@ -269,4 +269,8 @@ header div a:hover {
     .pagina-produto {
         grid-template-columns: 1fr;
       }
+      .tintas-carrinho{
+        grid-template-columns: 80svw;
+        gap: 10px;
+      }
 }
