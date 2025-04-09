@@ -202,6 +202,50 @@ header div a:hover {
     background-color: #d6451c;
   }
 
+  .container-carrinho{
+    display: flex;
+    justify-content: center;
+  }
+  .banner-tintas-carrinho{
+    width: 90svw;
+  }
+  .tintas-carrinho {
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+.tintas-carrinho img {
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: #dee2e6;
+}
+
+.tintas-carrinho p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+.tintas-carrinho-botoes button{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+.tintas-carrinho-remover{
+    padding: 10px;
+    border-radius: 5px;
+    border: red solid 1px;
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
