@@ -11,3 +11,7 @@ Produto - Essa pagina que seria acionada quando clicasse em um produto especific
 Carrinho - Uma pagina que mostra os produtos que foram adicionados ao carrinho, possui botões de adicionar mais unidades e remover unidades ou remover todas as unidades do carrinho.
 
 Contato - Nessa pagina possui um formulario de suporte para que o usuario possa relatar algum problema no site para nossa equipe.
+
+O link para o github pages é esse abaixo:
+
+https://kaiquiifsc.github.io/site-loja-tintas/
