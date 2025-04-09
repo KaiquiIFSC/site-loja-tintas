@@ -137,4 +137,11 @@ header div a:hover {
     .container {
         padding: 1rem;
     }
+
+    .container h3{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10% 0;
+        text-align: center;
+    }
 }
